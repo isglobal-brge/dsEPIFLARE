@@ -1,2 +1,2 @@
-# epiflare-dshpc
+# EPIFLARE DataSHIELD server package
 To be supplied
