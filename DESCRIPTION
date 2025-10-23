@@ -1,0 +1,27 @@
+Package: dsEPIFLARE
+Type: Package
+Title: DataSHIELD Interface for EPIFLARE Methylation Analysis
+Version: 0.1.0
+Authors@R:
+    c(person("David", "Sarrat González", , "david.sarrat@isglobal.org", role = c("aut", "cre")),
+      person("Albert", "Alegret García", , "albert.alegret@isglobal.org", role = c("aut")),
+      person("Juan R", "González", , "juanr.gonzalez@isglobal.org", role = c("aut")))
+Description: Provides DataSHIELD-compatible functions for methylation array 
+    analysis using the dsHPC infrastructure. Includes functions for reading 
+    IDAT files and performing PCA analysis with local plot generation.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Depends:
+    R (>= 4.0.0)
+Imports:
+    dsHPC,
+    ggplot2,
+    methods,
+    rlang
+Suggests:
+    testthat (>= 3.0.0),
+    knitr,
+    rmarkdown
+RoxygenNote: 7.2.3
+
